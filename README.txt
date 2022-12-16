@@ -1,3 +1,6 @@
+SeNet for image classification on CIFAR-10 dataset
+
+
 libraries REQUIRED-
 os, time, numpy, argparse, matplotlib, torch 1.7.0+cu110(this was compatible with my system), pickle, tqdm
 ===============================================================================================
