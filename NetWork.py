@@ -136,7 +136,7 @@ class standard_block(nn.Module):
         self.layer_2 = nn.Conv2d(filters, filters, 3, padding=1)
         self.residual_projection = None
         #self.bn = nn.BatchNorm2d(filters, eps=1e-5, momentum=0.997)
-        self.se_net = se_net2(filters, 4)
+        self.se_net = se_net(filters, 4)
         if projection_shortcut is not None:
             ### YOUR CODE HERE
             self.residual_projection = nn.Conv2d(first_num_filters, filters, 1, stride=strides)
