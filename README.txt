@@ -78,8 +78,7 @@ with the configuration dictionaries
 will be imported and referenced in Model.py.
 main classes-
 	-MyNetwork -  main classe
-	-se_net2 - proposed senet block, actually used in my model
-	-se_net - original senet block architecture as described in the referenced paper, not used.
+	-se_net - senet block architecture as described in the referenced paper.
 	-standard_block - block instantiating both resnet and squeeze block.
 other classes -
 	-input_layer, output_layer, batch_norm_celu_layer
